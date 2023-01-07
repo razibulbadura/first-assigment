@@ -1,17 +1,88 @@
 *{
-    border: 0;
+    margin: 0;
+    font-family: open sans-serif;
 }
+.primery-btn{
+    background-color: rgb(219, 130, 67);
+    font-weight: 700;
+    font-size: 25px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+    color: rgb(177, 228, 228);
+    margin-right: 0;
 
-.banner{
+}
+header{
     background-image:url('/banner/banner2.png');
     background-repeat: no-repeat;
-    background-position: center;
-    height: 800px;
-    width: 100%;
-    display: inline-block;
-    margin-left: 20px;
+    background-position:center;
 }
-
 .banner{
+    display:block;
+    align-items: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1000px;
+}
+.title{
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 90px;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+.title-info{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
 
+}
+.main-section{
+    display:flex;
+    align-items: center;
+   margin-left: 300px;
+}
+.main-info{
+    display: block;
+    margin-left: 100px;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+
+}
+.main-description{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: left;
+    padding-right: 200px;
+    margin-bottom: 30px;
+}
+ul li{
+    padding-left: 0;
+    list-style:lower-roman;
+    margin-bottom: 15px;
+}
+.icon{
+   
+}
+.icon-detail{
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.icon-img{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:70px 600px;
+    padding: 20px;
+}
+.gridiant{
+    margin: auto;
 }
