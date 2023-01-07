@@ -1,0 +1,17 @@
+*{
+    border: 0;
+}
+
+.banner{
+    background-image:url('/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.banner{
+
+}
